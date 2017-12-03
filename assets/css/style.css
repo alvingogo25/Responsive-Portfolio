@@ -67,6 +67,7 @@ li a {
 	display:inline-block;
 	margin-right: 20px;
 	width: 618px;
+	margin-bottom: 100px;
 }
 
 .box {
@@ -115,7 +116,7 @@ li a {
 }
 
 footer {
-	position: fixed;
+	position: static;
 	bottom: 0;
 	left: 0;
 	width: 100%;
@@ -197,10 +198,16 @@ footer {
 		margin: 0 auto;
 	}
 
+	.topbar {
+		position: absolute;
+		width: 100%;
+	}
+
 	.main {
 		display: inline-block;
-		width: 55%;
+		width: 52%;
 		margin-top: 30px;
+		margin-bottom: 100px;
 	}
 
 	.wrapper {
@@ -213,6 +220,16 @@ footer {
 		width: 30%;
 		margin-top: 30px;
 	}
+
+	.minibox {
+		width: 48%;
+	}
+
+	footer {
+		position: static;
+		padding-top: 20px;
+	}
+
 }
 
 @media screen and (max-width: 768px) {
@@ -367,7 +384,7 @@ footer {
 	}
 
 	footer {
-		position: relative;
+		position: static;
 	}
 
 
