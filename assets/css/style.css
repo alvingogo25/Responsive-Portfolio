@@ -220,8 +220,18 @@ footer {
 		margin-top: 30px;
 	}
 
+	.boximg2 {
+		margin-left: 0;
+		margin-top: 25px;
+	}
+
+	.boximg4 {
+		margin-left: 0;
+		margin-top: 25px;
+	}
+
 	.minibox {
-		width: 48%;
+		width: 100%;
 	}
 
 	footer {
@@ -241,13 +251,18 @@ footer {
 		width: 100%;
 	}
 
+	.wrapper {
+		width: 90%;
+		margin: 0 auto;
+	}
+
 	body {
 		width: 100%;
 	}
 
 	.main {
 		display: block;
-		width: 80%;
+		width: 91%;
 		margin-bottom: 30px;
 		margin-top: 150px;
 	}
@@ -256,14 +271,9 @@ footer {
 		clear: both;
 		display: block;
 		float: none;
-		width: 80%;
+		width: 91%;
 		margin-top: 20px;
 		margin-bottom: 80px;
-	}
-
-	.wrapper {
-		width: 100%;
-		margin: 0 auto;
 	}
 
 	.centertext {
@@ -271,15 +281,15 @@ footer {
 	}
 
 	.minibox {
-		width: 47%;
+		width: 45%;
 	}
 
 	.boximg2 {
-		margin-left: 30px;
+		margin-left: 8%;
 	}
 
 	.boximg4 {
-		margin-left: 30px;
+		margin-left: 8%;
 	}
 
 	footer {
@@ -291,12 +301,13 @@ footer {
 	.center {
 		margin: 0 auto;
 	}
+	
 	.smcenter {
 		margin: 0 auto;
 	}
 
 	.wrapper {
-		width: 100%;
+		width: 80%;
 		margin: 0 auto;
 	}
 
@@ -316,7 +327,6 @@ footer {
 	li {
 		clear: both;
 		float: none;
-		margin-right: 20px;
 	}
 
 	.borderright {
@@ -329,17 +339,16 @@ footer {
 
 	.main {
 		display: block;
-		width: 80%;
+		width: 88%;
 		margin-bottom: 30px;
 		margin-top: 150px;
 	}
-
 
 	.sidebar {
 		clear: both;
 		display: block;
 		float: none;
-		width: 80%;
+		width: 88%;
 		margin-top: 20px;
 		margin-bottom: 80px;
 	}
@@ -383,6 +392,4 @@ footer {
 	footer {
 		position: static;
 	}
-
-
 }
