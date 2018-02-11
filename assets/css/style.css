@@ -59,6 +59,15 @@ li a {
 		color: #777777;
 }
 
+.link {
+	color: white;
+	text-decoration: none;
+}
+
+.link:hover {
+	text-decoration: underline;
+}
+
 .left{
 	float: left;
 }
@@ -301,7 +310,7 @@ footer {
 	.center {
 		margin: 0 auto;
 	}
-	
+
 	.smcenter {
 		margin: 0 auto;
 	}
